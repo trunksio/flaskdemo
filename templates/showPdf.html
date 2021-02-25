@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CGT</title>
+</head>
+<body>
+<div>
+<iframe src="{{ url_for('get_pdf_file', id=id )}}" frameborder="0" scrolling="yes" width="50%" height="1000" align="left"></iframe>
+</div>
+<div>
+<iframe src="{{ url_for('fancy_stuff', id=id ) }}"  frameborder="0" scrolling="no" width="50%" height="1000"  align="right"></iframe>
+</div>
+</body>
+</html>
